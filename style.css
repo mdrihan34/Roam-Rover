@@ -141,9 +141,12 @@ margin-left: 24px;
    
     margin-left: 8px;
     border-radius: 16px;
-    padding: 5px 7px;
+    padding: 40px 10px;
 
   
+  }
+  .header-form{
+    padding: 0;
   }
   .web-title{
     
@@ -166,11 +169,9 @@ margin-left: 24px;
     border-radius: 10px;
   }
   .explore-contant{
-    padding-left: 1px;
-  }
-  .explore-contant{
     padding-left: 41px;
   }
+ 
   select, input ,button{
     
     
