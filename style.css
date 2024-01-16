@@ -7,14 +7,16 @@
   align-items: center;
 }
 .nav-bar {
-  margin-left: 228px;
+  margin-left: 325px;
 }
 
-fa-bars {
+
+.fa-solid.fa-bars {
   visibility: hidden;
 }
-.fa-solid, .fas{
 
+.fa-solid.fa-magnifying-glass{
+  color: #ffffff;
 }
 
 .web-logo {
@@ -29,7 +31,7 @@ fa-bars {
   align-items: center;
 }
 ul {
-  margin-left: 300px;
+  margin-left: 100px;
 }
 ul,
 li,
@@ -37,12 +39,13 @@ a {
   text-decoration: none;
   list-style: none;
   display: inline;
-  padding-left: 44px;
+  padding-left: 40px;
 
   color: #424247;
   font-size: 18px;
 
   font-weight: 400;
+ 
 }
 .explore-section {
   background-image: url(./images/Group13.png);
@@ -74,6 +77,7 @@ a {
   height: 82px;
   background-color: rgba(255, 255, 255, 0.33);
   margin: -32px 232px;
+  border-radius: 10px;
 }
 .header-form{
   padding: 16px;
@@ -85,15 +89,18 @@ border: none;
 margin-left: 24px;
 }
 .primary-btn{
-  padding: 16px 67px;
+  padding: 22px 49px;
   background-color: #FF5400;
   border: none;
   color: white;
   border-radius: 10px;
+  margin-left: 20px;
+}
+.btn-text{
+  margin-left: 5px;
+  
 
 }
-
-
 
 
 
@@ -126,8 +133,52 @@ margin-left: 24px;
     margin-left: 0px;
     display: none;
   }
-  .fa-solid,
-  fa-bars {
+  .fa-solid.fa-bars {
     visibility: visible;
   }
+  .explore-section {
+  
+   
+    margin-left: 8px;
+    border-radius: 16px;
+    padding: 5px 7px;
+
+  
+  }
+  .web-title{
+    
+
+ font-size: 22px;
+
+
+  }
+  .explore-description{
+    font-size: 14px;
+    width: 300px;
+    height: 63px;
+
+  }
+  .form {
+    width: 287px;
+    height: 288px;
+    background-color: rgba(255, 255, 255, 0.33);
+    margin: -23px 41px;
+    border-radius: 10px;
+  }
+  .explore-contant{
+    padding-left: 1px;
+  }
+  .explore-contant{
+    padding-left: 41px;
+  }
+  select, input ,button{
+    
+    
+    
+    margin-top: 10px;
+    width: 240px;
+    }
+    input[type="text"]{
+      width: 195px;
+    }
 }
