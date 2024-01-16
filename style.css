@@ -1,0 +1,133 @@
+* {
+  font-family: Mulish;
+}
+
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+.nav-bar {
+  margin-left: 228px;
+}
+
+fa-bars {
+  visibility: hidden;
+}
+.fa-solid, .fas{
+
+}
+
+.web-logo {
+  color: #131318;
+  font-size: 36px;
+
+  font-weight: 800;
+  padding-left: 16px;
+}
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+ul {
+  margin-left: 300px;
+}
+ul,
+li,
+a {
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+  padding-left: 44px;
+
+  color: #424247;
+  font-size: 18px;
+
+  font-weight: 400;
+}
+.explore-section {
+  background-image: url(./images/Group13.png);
+  background-repeat: no-repeat;
+  padding: 95px 7px;
+  margin-left: 328px;
+  border-radius: 16px;
+}
+.web-title {
+  color: white;
+  font-size: 64px;
+
+  font-weight: 800;
+}
+.explore-description {
+  color: white;
+  height: 52px;
+    width: 670px;
+    padding-bottom: 40px;
+  
+  
+}
+.explore-contant{
+  padding-left: 301px;
+}
+
+.form {
+  width: 800px;
+  height: 82px;
+  background-color: rgba(255, 255, 255, 0.33);
+  margin: -32px 232px;
+}
+.header-form{
+  padding: 16px;
+}
+.select, input {
+padding: 20px;
+border-radius: 10px;
+border: none;
+margin-left: 24px;
+}
+.primary-btn{
+  padding: 16px 67px;
+  background-color: #FF5400;
+  border: none;
+  color: white;
+  border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Design */
+@media screen and (max-width: 600px) {
+  .logo-img {
+    width: 30px;
+  }
+
+  .web-logo {
+    font-size: 20px;
+    padding-left: 2px;
+  }
+
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-bar {
+    margin-left: 0px;
+  }
+  ul {
+    margin-left: 0px;
+    display: none;
+  }
+  .fa-solid,
+  fa-bars {
+    visibility: visible;
+  }
+}
