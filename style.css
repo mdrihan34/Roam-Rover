@@ -196,13 +196,71 @@ input {
 
 .newsletter-form {
   border: 2px solid #ff5400;
-  padding: 92px 26px;
+  padding: 33px 33px;
   display: inline-block;
+  margin-left: 10px;
+  border-radius: 16px;
+  margin-right: 24px;
 }
 
 .newsletter-contant {
   display: flex;
   padding: 48px 355px 50px 331px;
+}
+
+
+input[type="email"] {
+  background-color: #1313180d;
+  margin: 10px 30px;
+  width: 349px;
+  height: 20px;
+}
+.letter-title{
+
+  color: #131318;
+   font-size: 24px;
+ 
+   font-weight: 800;
+   
+}
+.letter-discription{
+ 
+  color: #5A5A5D;
+ 
+
+
+
+ 
+}
+.div-container{
+padding-left: 30px;
+padding-right: 30px;
+}
+.footer-contant{
+  display: flex;
+  padding-left: 42%;
+  align-items: center;
+}
+footer{
+  text-align: center;
+  background-color: #1313180D;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.footer-discription{
+ 
+color: #5A5A5D;
+
+
+
+}
+.footer-icon >i{
+padding: 18px;
+width: 30px;
+}
+.footer-hr{
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 /* Responsive Design */
@@ -321,4 +379,38 @@ input {
     margin-top: 24px;
     margin-left: 0px;
   }
+  .newsletter{
+
+  }
+  .newsletter-contant{
+    display: block;
+    padding: 20px 0px 20px 1px;
+  }
+  .newsletter-image >img{
+   width: 450px;
+   
+  }
+  .newsletter-form {
+    
+    padding: 3px 3px;
+    display: inline-block;
+    margin-left: 10px;
+    border-radius: 16px;
+    margin: 28px -1px;
+  }
+  .div-container{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    input[type="email"] {
+      background-color: #1313180d;
+      margin: 10px 30px;
+      width: 345px;
+      height: 20px;
+    }
+    .footer-contant{
+      padding-left: 35%;
+    }
+    
+   
 }
